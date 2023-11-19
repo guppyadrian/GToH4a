@@ -159,7 +159,6 @@ class Character extends Sprite {
     if (this.wallCollisionCheck()) {
       if (Keys.KeyUp && Math.abs(this.vel.x) >= 2) {
         if (this.wallJump < 7) {
-          console.log("wallJUPM")
           this.vel.x *= -1.2;
           this.vel.x = Math.round(this.vel.x * 4) / 4;
           this.vel.y = -CHARACTER_JUMP_HEIGHT + 2;
