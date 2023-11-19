@@ -1,7 +1,9 @@
-## Ver 4.0.0-alpha1.e `18 NOV 2023`
-- x acceleration reduced (0.5 -> 0.25)
-- loading levels
+## Ver 4.0.0-alpha1.f `19 NOV 2023`
 - Starting work on hud elements
+
+## Ver 4.0.0-alpha1.e `18 NOV 2023`
+- X acceleration reduced (0.5 -> 0.25)
+- Loading levels
 
 ## Ver 4.0.0-alpha1.d `11 NOV 2023`
 - Walljumping
