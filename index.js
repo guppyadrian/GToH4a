@@ -6,15 +6,16 @@ Cam.z = 4;
 
 CurrentLevelData = [
   [{x: 0, y: 240}, {w: 500, h: 8}, 0], // floor
-  [{x: 160, y: 238}, {w: 64, h: 8}], // slop e
-  [{x: 64, y: 208}, {w: 16, h: 40}], //column
-  [{x: 56, y: 192}, {w: 16, h: 8}], // little bump on column
-  [{x: 56, y: 200}, {w: 8, h: 4}], // little bottom bump on column
-  [{x: 96, y: 192}, {w: 8, h: 8}], // floating square
+  [{x: 160, y: 238}, {w: 64, h: 8}, 0], // slop e
+  [{x: 64, y: 208}, {w: 16, h: 40}, 0], //column
+  [{x: 56, y: 192}, {w: 16, h: 8}, 0], // little bump on column
+  [{x: 56, y: 200}, {w: 8, h: 4}, 0], // little bottom bump on column
+  [{x: 96, y: 192}, {w: 8, h: 8}, 0], // floating square
   [{x: 24, y: 200}, {w: 16, h: 8}, 1], // left blue
   [{x: 128, y: 160}, {w: 64, h: 8}, 1], // right blue
   [{x: 128, y: 200}, {w: 64, h: 8}, 2], // red
-  [{x: 208, y: 100}, {w: 8, h: 140}]
+  [{x: 208, y: 100}, {w: 8, h: 140}, 0],
+  [{x: 96, y: 160}, {w: 8, h: 8}, 3]
 ];
 
 /**

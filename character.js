@@ -41,6 +41,9 @@ class Character extends Sprite {
         if (this.blueActive)
           return false;
         break;
+      case 3:
+        
+        break;
       default:
         break;
     }
@@ -130,7 +133,7 @@ class Character extends Sprite {
     const xAccel = Keys.KeyRight - Keys.KeyLeft;
 
     if (this.wallJump === 0) {
-      this.vel.x += xAccel * 0.5;
+      this.vel.x += xAccel * 0.25;
     } else {
       this.wallJump--;
     }
@@ -139,7 +142,7 @@ class Character extends Sprite {
       this.vel.x = this.maxSpeed * Math.sign(this.vel.x);
     }
     if (xAccel === 0) {
-      if (this.wallJump === 0) {
+      if (this.wallJump === 0 && Math.abs(this.vel.x > 0.25)) {
         this.vel.x -= 0.5 * Math.sign(this.vel.x);
       } else {
         this.vel.x -= 0.25 * Math.sign(this.vel.x);

@@ -13,8 +13,11 @@ function drawArea(area, blueActive) {
       if (!blueActive)
         ctx.globalAlpha = 0.5;
       break;
+    case 3:
+      ctx.fillStyle = "green";
+      break;
     default:
-      ctx.fillStyle = "lime";
+      ctx.fillStyle = "purple";
       break;
   }
 
