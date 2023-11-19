@@ -42,8 +42,12 @@ class Character extends Sprite {
           return false;
         break;
       case 3:
-        
-        break;
+        if (collisionCheck(this.pos, this.size, block[0], block[1])) {
+          loadWorld(levelOne);
+          return false;
+        } else {
+          return false;
+        }
       default:
         break;
     }

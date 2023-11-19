@@ -13,3 +13,6 @@ const BlockIdDatabase = [
 ];
 
 let CurrentLevelData = [];
+
+
+const levelOne = [[{x: 0, y: 240}, {w: 500, h: 8}, 0]];

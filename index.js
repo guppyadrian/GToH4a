@@ -1,7 +1,7 @@
 const GAME_FRAMERATE = 60;
 
 
-const MainPlayer = new Character({x: 0, y: 0});
+let MainPlayer = new Character({x: 0, y: 0});
 Cam.z = 4;
 
 CurrentLevelData = [
